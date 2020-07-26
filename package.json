@@ -23,8 +23,7 @@
     "tslint": "^6.1.2",
     "typescript": "^3.9.6",
     "@types/express": "^4.17.7",
-    "@types/node": "^14.0.22",
-    ""
+    "@types/node": "^14.0.22"
   },
   "dependencies": {
     "@types/mongoose": "^5.7.31",
