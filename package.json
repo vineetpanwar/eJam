@@ -1,0 +1,26 @@
+{
+  "name": "ejam",
+  "version": "1.0.0",
+  "description": "this is the project of ejam",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon --config \"./util/nodemon.json\"/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6",
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.22"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.7.31",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23"
+  }
+}
