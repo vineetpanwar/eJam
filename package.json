@@ -8,11 +8,11 @@
     "start-dev": "nodemon --config \"./util/nodemon.json\"/",
     "server": "ts-node src/start.ts dev",
     "start-client": "npm install --prefix /src/public/client/ejam &&  npm run build --prefix /src/public/client/ejam",
-    "start": "ts-node src/start.ts dev",
-    "serve": "npm install --prefix /src/public/client/ejam ",
-    "heroku-postbuild":" cd src/public/client/ejam && npm install && npm run build"
+    "start": "ts-node start.ts",
+    "serve": "npm install --prefix /src/public/client/ejam",
+    "heroku-prebuild": " cd client && npm install && npm run build"
   },
-  "author": "",
+  "author": "Vineet Panwar",
   "license": "ISC",
   "engines": {
     "node": "12.18.2"
