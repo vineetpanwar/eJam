@@ -10,7 +10,7 @@
     "start-client": "npm install --prefix /src/public/client/ejam &&  npm run build --prefix /src/public/client/ejam",
     "start": "ts-node start.ts",
     "serve": "npm install --prefix /src/public/client/ejam",
-    "heroku-prebuild": " cd client && npm install && npm run build"
+    "heroku-prebuild": " npm install && cd client && npm install && npm run build"
   },
   "author": "Vineet Panwar",
   "license": "ISC",
